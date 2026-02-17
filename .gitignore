@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings (contains user-specific config)
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# RAG data (too large for git)
+*.db
+*.sqlite3
+chroma_data/
